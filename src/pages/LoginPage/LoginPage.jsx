@@ -15,8 +15,9 @@ const LoginPage = () => {
 			preserveAspectRatio: 'xMidYMid slice',
 		},
 	};
-	const CLIENT_ID = process.env.CLIENT_ID;
-	const REDIRECT_URL = process.env.REDIRECT_URL;
+	const CLIENT_ID = process.env.REACT_APP_CLIENT_ID;
+	console.log(CLIENT_ID)
+	const REDIRECT_URL = process.env.REACT_APP_REDIRECT_URL;
 	return (
 		<>
 			<div className="px-[35px] mt-[65px] mb-[62px] flex flex-col">
