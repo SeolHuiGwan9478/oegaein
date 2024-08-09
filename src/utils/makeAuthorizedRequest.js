@@ -37,7 +37,7 @@ const makeAuthorizedRequest = async (url, method = 'get', config) => {
 				toast.error('로그인이 필요한 서비스입니다!');
 				setTimeout(() => {
 					window.location.href = 'https://oegaein.vercel.app/login';
-				}, 3000);
+				}, 100);
 			}
 		} else {
 			if (error.response) {
