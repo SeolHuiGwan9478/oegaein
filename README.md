@@ -10,7 +10,7 @@
 
 ## 배포 주소
 
-> https://oegaein-front-end.vercel.app
+> https://oegaein.vercel.app
 
 
 ## SNS 주소

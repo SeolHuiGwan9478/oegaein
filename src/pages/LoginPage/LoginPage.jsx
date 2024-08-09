@@ -15,9 +15,8 @@ const LoginPage = () => {
 			preserveAspectRatio: 'xMidYMid slice',
 		},
 	};
-	const CLIENT_ID =
-		'393836402841-kce6okeggrgkkern512g91o39mbb273a.apps.googleusercontent.com';
-	const REDIRECT_URL = 'https://oegaein.vercel.app';
+	const CLIENT_ID = process.env.CLIENT_ID;
+	const REDIRECT_URL = process.env.REDIRECT_URL;
 	return (
 		<>
 			<div className="px-[35px] mt-[65px] mb-[62px] flex flex-col">
