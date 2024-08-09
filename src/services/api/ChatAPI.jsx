@@ -1,7 +1,7 @@
 import { makeAuthorizedRequest } from '@utils/makeAuthorizedRequest';
 import { toast } from 'react-toastify';
 
-export const chatSeverURL = 'https://api.oegaein.org:8081';
+export const chatSeverURL = process.env.CHAT_BASE_URL;
 
 export const getChatListAPI = async () => {
 	const response = await makeAuthorizedRequest(
